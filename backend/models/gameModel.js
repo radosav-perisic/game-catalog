@@ -22,4 +22,4 @@ const gameSchema = mongoose.Schema(
 }
 )
 
-const Cat = mongoose.model('Call of Duty', gameSchema);
+export const Game = mongoose.model('Call of Duty', gameSchema);
